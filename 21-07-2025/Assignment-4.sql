@@ -5,7 +5,7 @@ USE Movie_Rentals_System;
 
 CREATE TABLE movies (
     movie_id INT PRIMARY KEY,
-    title VARCHAR(100) NOT NULL,
+    title VARCHAR(100),
     genre VARCHAR(50),
     release_year INT,
     rental_rate DECIMAL(5,2)
@@ -13,7 +13,7 @@ CREATE TABLE movies (
 
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
+    name VARCHAR(100),
     email VARCHAR(100) UNIQUE,
     city VARCHAR(50)
 );
