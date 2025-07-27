@@ -1,6 +1,0 @@
-productID,name,category,price,cost,discountPercentage,createdAt
-1,"Laptop Pro 14",Electronics,1200.00,900.00,10.00,"2025-07-23 19:53:53"
-2,"Organic Apples",Grocery,3.50,2.00,5.00,"2025-07-23 19:53:53"
-3,"Cotton T-Shirt",Apparel,25.00,10.00,15.00,"2025-07-23 19:53:53"
-4,"Bluetooth Speaker",Electronics,60.00,40.00,20.00,"2025-07-23 19:53:53"
-5,"LED Bulb Pack","Home Goods",15.00,8.00,0.00,"2025-07-23 19:53:53"
