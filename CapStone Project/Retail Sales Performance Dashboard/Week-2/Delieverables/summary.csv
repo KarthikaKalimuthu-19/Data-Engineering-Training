@@ -1,0 +1,6 @@
+,productID,name,category,price,cost,discountPercentage,createdAt,saleID,storeID,employeeID,quantity,saleDate,revenue,profit,totalCost,profitMargins
+0,1,Laptop Pro 14,Electronics,1200.0,900.0,25.0,2025-07-23 19:53:53,1,1,1,2,2025-07-23 19:54:07,2400.0,600.0,1800.0,0.25
+1,2,Organic Apples,Grocery,3.5,2.0,42.86,2025-07-23 19:53:53,2,2,2,100,2025-07-23 19:54:07,350.0,150.0,200.0,0.43
+2,3,Cotton T-Shirt,Apparel,25.0,10.0,60.0,2025-07-23 19:53:53,3,3,3,30,2025-07-23 19:54:07,750.0,450.0,300.0,0.6
+3,4,Bluetooth Speaker,Electronics,60.0,40.0,33.33,2025-07-23 19:53:53,4,4,4,5,2025-07-23 19:54:07,300.0,100.0,200.0,0.33
+4,5,LED Bulb Pack,Home Goods,15.0,8.0,46.67,2025-07-23 19:53:53,5,5,5,20,2025-07-23 19:54:07,300.0,140.0,160.0,0.47
