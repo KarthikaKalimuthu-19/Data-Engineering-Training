@@ -1,3 +1,5 @@
 Welcome to my Data Engineering training repository!
+
 This space documents my journey as I build expertise in covering a wide range of tools and technologies including Advanced SQL for complex queries and optimization, MongoDB for NoSQL data modeling and aggregation, Advanced Python with Pandas and NumPy for data manipulation and analysis, Apache Spark and PySpark for distributed data processing, Azure Databricks for cloud-based big data analytics, Apache Airflow for workflow orchestration, and Azure DevOps for version control and CI/CD pipelines.
+
 Here you’ll find my hands-on projects, exercises, and notes covering a wide range of modern data engineering technologies.
