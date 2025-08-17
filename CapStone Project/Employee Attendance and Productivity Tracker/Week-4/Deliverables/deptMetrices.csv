@@ -1,0 +1,5 @@
+department, LateCount, AbsentCount, AverageWorkHours, AverageProductivityScore, TotalTasksCompleted
+Engineering, 4, 1, 8.02, 0.48, 300
+HR, 2, 2, 8.08, 0.04, 18
+Finance, 2, 2, 7.87, 0.25, 108
+Marketing, 3, 1, 8.07, 0.26, 90
