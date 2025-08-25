@@ -1,0 +1,34 @@
+# Python package
+# Create and test a Python package on multiple Python versions.
+# Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/python
+
+trigger:
+  - main   
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+
+  - task: Checkout@1
+
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.10'
+      addToPath: true
+
+  - script: |
+      python -m pip install --upgrade pip
+      pip install -r requirements.txt
+    displayName: 'Install dependencies'
+
+  - script: |
+      python data_processing.py
+    displayName: 'Run data processing'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: 'data'
+      ArtifactName: 'sales_data'
+      publishLocation: 'Container'

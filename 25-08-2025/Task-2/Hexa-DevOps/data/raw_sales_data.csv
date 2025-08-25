@@ -1,0 +1,8 @@
+OrderID,CustomerName,OrderDate,Product,Quantity,Price
+1001,John Doe,2025-07-01,Laptop,1,800
+1002,Jane Smith,2025-07-02,Phone,2,500
+1003,Bob Lee,,Tablet,1,300
+1004,Alice Wong,2025-07-03,Monitor,2,
+1005,Tom Clark,2025-07-05,Keyboard,3,50
+1006,Susan Ray,2025-07-06,Mouse,5,20
+1007,David Kim,2025/07/07,Headphones,2,100
