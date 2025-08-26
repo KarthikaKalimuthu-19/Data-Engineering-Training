@@ -3,7 +3,7 @@
 # Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 
-trigger: none  
+trigger: main
 
 schedules:
   - cron: "0 6 * * 1"   
@@ -22,7 +22,7 @@ steps:
 
   - script: |
       pip install pandas numpy matplotlib
-      python attendance_report.py
+      python Top5Absentees.py
     displayName: "Run Attendance Processing Script"
 
   - task: PublishBuildArtifacts@1
