@@ -22,7 +22,7 @@ steps:
 
   - script: |
       pip install pandas numpy matplotlib
-      python Top5Absentees.py
+      python Azure_DevOps_Operations.py
     displayName: "Run Attendance Processing Script"
 
   - task: PublishBuildArtifacts@1
